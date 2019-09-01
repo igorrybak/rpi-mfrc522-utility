@@ -1,0 +1,28 @@
+{
+    "name": "rpi-mfrc522-utility",
+    "version": "1.0.0",
+    "description": "Command line utility for reading and writing RFID cards with Raspberry PI, based on [rpi-mfrc522](https://www.npmjs.com/package/rpi-mfrc522) with typings.",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "debug": "ts-node-dev src/index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zathershtein/rpi-mfrc522.git"
+    },
+    "author": "zathershtein",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zathershtein/rpi-mfrc522/issues"
+    },
+    "homepage": "https://github.com/zathershtein/rpi-mfrc522#readme",
+    "dependencies": {
+        "rpi-mfrc522": "^1.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^12.7.3",
+        "ts-node-dev": "^1.0.0-pre.42",
+        "typescript": "^3.6.2"
+    }
+}
