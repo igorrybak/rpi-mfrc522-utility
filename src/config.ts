@@ -1,6 +1,8 @@
 export const config = {
     PIN_RESET: 25,
     RESET_TIME: 300,
+    READ_SLEEP_TIME: 50,
+    SUCCESS_SLEEP_TIME: 1000,
     BUS: 0,
     DEVICE: 0,
     KEY_A: [0xff, 0xff, 0xff, 0xff, 0xff, 0xff],
