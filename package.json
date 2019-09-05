@@ -4,6 +4,7 @@
     "description": "Command line utility for reading and writing RFID cards with Raspberry PI, based on [rpi-mfrc522](https://www.npmjs.com/package/rpi-mfrc522) with typings.",
     "main": "dist/index.js",
     "scripts": {
+        "start": "printf \"Use $(tput setaf 2)npm run read [SECTOR_NUMBER]$(tput sgr0) or $(tput setaf 2)npm run write [SECTOR_NUMBER]$(tput sgr0) instead.\"",
         "read": "node dist/read.js",
         "write": "node dist/write.js",
         "debug": "ts-node-dev src/read.ts",
