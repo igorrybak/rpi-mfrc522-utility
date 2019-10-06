@@ -10,6 +10,10 @@
         "debug": "ts-node-dev src/read.ts",
         "compile": "tsc && echo \"$(tput setaf 2)Compilation successful$(tput sgr0)\""
     },
+    "keywords": [
+        "mfrc522",
+        "raspberrypi"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/zathershtein/rpi-mfrc522.git"
